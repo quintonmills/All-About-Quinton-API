@@ -1,0 +1,88 @@
+{
+    "Name": [
+    {
+        "Honorific": "Mr",
+        "First Name": "Quinton",
+        "Last Name": "Mills",
+        "Middle Name": "Lamar"
+    }
+  ],
+  "Education": [
+    {
+        "High School":[{
+            "Degree": "General",
+            "first":"Kokomo High School",
+            "second":"Marietta High School"
+        }],
+        "College": [{
+            "Degree": "Computer Science",
+            "School": "Clark Atlanta University"
+        }],
+        "Boot Camp": [{
+            "Certification": "Web Development",
+            "School": "Digital Crafts"
+        }],
+        "Certification": "ISTQB Foundation Level Cerificate"
+    }
+    ],
+    "skills": [
+        {
+            "Programming language": [{
+                "first": "Python",
+                "second": "JavaScript"
+        }
+    ],
+    "Quality Assurance": [
+    {
+            "Graphical User Interface Testing":[{
+                "framework": "Selenium WebDriver",
+                "Language": "Python"
+            }
+            ],
+            "Integration Testing": [
+            {
+                "software": "Postman",
+                "language" : "JavaScript"
+            }],
+            "Performance Testing": [
+            {
+                "software": "Jmeter"
+            }],
+            "Database Management": [
+            {
+                "software": "PostgreSQL",
+                "Language": "SQL"
+            }]
+        }
+    ],
+        "Web Development": [
+        {
+            "first": "HTML",
+            "second": "CSS",
+            "third": "React"
+        }]        
+        }
+    ],
+    "Projects": [
+    {
+        "first": "Selenium Cookbook",
+        "second": "Meetcha",
+        "third": "Join-us",
+        "fourth": "All About Quinton API"
+    }
+],
+    "Experience":[
+        {
+        "id":1,
+        "Company": "Test Birds",
+        "Position": "Usability Tester",
+        "Date": "08/13/2018-present"
+    },
+    {
+        "id":2,
+        "Company": "Sweet Jeanius",
+        "Position": "Vice President of Operations",
+        "Date": "05/01/2015-present"
+    }
+]
+}
