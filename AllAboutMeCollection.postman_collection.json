@@ -1,0 +1,240 @@
+{
+	"info": {
+		"_postman_id": "786f1318-a3b1-4aa1-b147-64fef2ff3c9d",
+		"name": "All About Me Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Confirm Name Resource",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "d8210d42-6878-4d27-8d78-a4d18da42a37",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"First name is correct\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Quinton\");",
+							"});",
+							"pm.test(\"Last name is correct\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Mills\");",
+							"});",
+							"pm.test(\"Middle name is correct\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Lamar\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/{{n}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"{{n}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Confirm Education Resource",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "55947517-82df-443b-a89e-e18b1d630e72",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"First school is correct\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Kokomo High School\");",
+							"});",
+							"pm.test(\"Second school is correct\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Marietta High School\");",
+							"});",
+							"pm.test(\"College is correct\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Clark Atlanta University\");",
+							"});",
+							"pm.test(\"Training is correct\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Digital Crafts\");",
+							"});",
+							"pm.test(\"Certification is correct\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"ISTQB\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/{{ed}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"{{ed}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Confirm Education Resouce",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "55947517-82df-443b-a89e-e18b1d630e72",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Languages Present\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Programming language\");",
+							"});",
+							"pm.test(\"QA Skills Present\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Quality Assurance\");",
+							"});",
+							"pm.test(\"CWebDev Skills Present\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Web Development\");",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/{{s}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"{{s}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Confirm Skills Resource",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "55947517-82df-443b-a89e-e18b1d630e72",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Languages Present\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Programming language\");",
+							"});",
+							"pm.test(\"QA Skills Present\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Quality Assurance\");",
+							"});",
+							"pm.test(\"CWebDev Skills Present\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Web Development\");",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/{{s}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"{{s}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Confirm Project Resource",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "d39e2eed-da3f-434e-a444-c8dbb9af08ff",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Selenium Cookbook Project is Correct\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Selenium\");",
+							"});",
+							"pm.test(\"Meetcha Project is Correct\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Meetcha\");",
+							"});",
+							"pm.test(\"Join-Us Projcet is Correct\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Join-us\");",
+							"});",
+							"pm.test(\"API Project is Correct\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"All About Quinton API\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/{{p}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"{{p}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
